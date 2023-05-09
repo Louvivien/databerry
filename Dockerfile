@@ -25,12 +25,14 @@ RUN \
     elif [ -f pnpm-lock.yaml ]; then yarn global add pnpm && pnpm i ; \
     else echo "Lockfile not found." && exit 1; \
     fi
+RUN npm install -g prisma
 RUN rm -rf node_modules/.pnpm/canvas@2.11.0
 
 # Rebuild the source code only when needed
 FROM base AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
+COPY --from=deps /usr/local/lib/node_modules /usr/local/lib/node_modules
 COPY . .
 
 # Next.js collects completely anonymous telemetry data about general usage.
