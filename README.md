@@ -1,7 +1,7 @@
 
 <h1 align="center" style="font-weight: bold">
   <br>
-  <a href="https://databerry.ai"><img src="public/databerry-logo-icon.png" alt="WebTorrent" width="200"></a>
+  <a href="https://databerry-one.vercel.app"><img src="public/databerry-logo-icon.png" alt="WebTorrent" width="200"></a>
   <br>
   Databerry
   <br>
@@ -18,9 +18,9 @@
 <img src="public/og-image.png" alt="Databerry" width="1000" style="max-width: 100%;">
 </h2>
 
-**[Databerry](https://databerry.ai)** provides a user-friendly solution to quickly setup a semantic search system over your personal data without any technical knowledge.
+**[Databerry](https://databerry-one.vercel.app)** provides a user-friendly solution to quickly setup a semantic search system over your personal data without any technical knowledge.
 
-### [📄 Documentation](https://docs.databerry.ai/)
+### [📄 Documentation](https://docs.databerry-one.vercel.app/)
 
 ### Features
 - Load data from anywhere

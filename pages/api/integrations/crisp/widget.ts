@@ -74,8 +74,8 @@ export const widgetActions = async (
       from: 'operator',
       origin: 'chat',
       user: {
-        nickname: 'Databerry.ai',
-        avatar: 'https://databerry.ai/databerry-rounded-bg-white.png',
+        nickname: 'databerry-one.vercel.app',
+        avatar: 'https://databerry-one.vercel.app/databerry-rounded-bg-white.png',
       },
       stealth: true,
       content: `Summary:\n${output}`,

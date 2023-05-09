@@ -28,7 +28,7 @@ const solutions = [
     name: 'Crisp Plugin',
     description:
       'Connect your agent to Crisp. Summarize conversations and more!',
-    href: 'https://www.databerry.ai/products/crisp-plugin',
+    href: 'https://www.databerry-one.vercel.app/products/crisp-plugin',
     icon: (props: any) => (
       <img
         {...props}
@@ -40,7 +40,7 @@ const solutions = [
   {
     name: 'Slack Bot',
     description: 'Deploy an Agent trained on your data to Slack',
-    href: 'https://www.databerry.ai/products/slack-bot',
+    href: 'https://www.databerry-one.vercel.app/products/slack-bot',
     icon: (props: any) => (
       <img
         {...props}
@@ -52,7 +52,7 @@ const solutions = [
   {
     name: 'Datberry API',
     description: 'Document Retrieval as a service',
-    href: 'https://docs.databerry.ai/introduction',
+    href: 'https://docs.databerry-one.vercel.app/introduction',
     icon: ServerIcon,
   },
   {

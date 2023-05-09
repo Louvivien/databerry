@@ -129,13 +129,13 @@ const handleSendInput = async ({
     origin: 'chat',
     user: {
       type: 'participant',
-      nickname: agentName || 'Databerry.ai',
-      avatar: 'https://databerry.ai/databerry-rounded-bg-white.png',
+      nickname: agentName || 'databerry-one.vercel.app',
+      avatar: 'https://databerry-one.vercel.app/databerry-rounded-bg-white.png',
     },
 
     content: {
       id: `databerry-query-${cuid()}`,
-      text: `✨ Ask ${agentName || `Databerry.ai`}`,
+      text: `✨ Ask ${agentName || `databerry-one.vercel.app`}`,
       explain: 'Query',
       value,
     },
@@ -169,8 +169,8 @@ const handleQuery = async (
         content: 'Usage limit reached.',
         user: {
           type: 'participant',
-          nickname: agent?.name || 'Databerry.ai',
-          avatar: 'https://databerry.ai/databerry-rounded-bg-white.png',
+          nickname: agent?.name || 'databerry-one.vercel.app',
+          avatar: 'https://databerry-one.vercel.app/databerry-rounded-bg-white.png',
         },
       }
     );
@@ -185,8 +185,8 @@ const handleQuery = async (
     content: answer,
     user: {
       type: 'participant',
-      nickname: agent?.name || 'Databerry.ai',
-      avatar: 'https://databerry.ai/databerry-rounded-bg-white.png',
+      nickname: agent?.name || 'databerry-one.vercel.app',
+      avatar: 'https://databerry-one.vercel.app/databerry-rounded-bg-white.png',
     },
   });
 

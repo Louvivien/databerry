@@ -85,7 +85,7 @@ function MobileNavigation() {
             <MobileNavLink href="https://github.com/gmpetrov/databerry">
               GitHub
             </MobileNavLink>
-            <MobileNavLink href="https://docs.databerry.ai/">
+            <MobileNavLink href="https://docs.databerry-one.vercel.app/">
               Docs
             </MobileNavLink>
             <MobileNavLink href="https://databerry.getrewardful.com/">
@@ -94,7 +94,7 @@ function MobileNavigation() {
             {/* <MobileNavLink href="#testimonials">Testimonials</MobileNavLink> */}
             {/* <MobileNavLink href="#pricing">Pricing</MobileNavLink> */}
             <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="https://app.databerry.ai">
+            <MobileNavLink href="https://app.databerry-one.vercel.app">
               Sign in
             </MobileNavLink>
           </Popover.Panel>
@@ -133,7 +133,7 @@ export function Header() {
               <NavLink href="https://github.com/gmpetrov/databerry">
                 GitHub
               </NavLink>
-              <NavLink href="https://docs.databerry.ai/">
+              <NavLink href="https://docs.databerry-one.vercel.app/">
                 Docs
               </NavLink>
               <NavLink href="https://databerry.getrewardful.com/" target={"_blank"}>
@@ -145,9 +145,9 @@ export function Header() {
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             {/* <div className="hidden md:block">
-              <NavLink href="https://app.databerry.ai">Sign in</NavLink>
+              <NavLink href="https://app.databerry-one.vercel.app">Sign in</NavLink>
             </div> */}
-            {/* <Button target="_blank" href="https://app.databerry.ai/signin" color="blue">
+            {/* <Button target="_blank" href="https://app.databerry-one.vercel.app/signin" color="blue">
               <span>
                 Sign In
               </span>

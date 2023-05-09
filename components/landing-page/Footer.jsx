@@ -29,7 +29,7 @@ export function Footer() {
               </Link> */}
               <NavLink href="/pricing">Pricing</NavLink>
               <NavLink href="https://github.com/gmpetrov/databerry">GitHub</NavLink>
-              <NavLink href="https://docs.databerry.ai/">Docs</NavLink>
+              <NavLink href="https://docs.databerry-one.vercel.app/">Docs</NavLink>
               <NavLink href="https://databerry.getrewardful.com/" target={"_blank"}>
                 Affiliates
               </NavLink>

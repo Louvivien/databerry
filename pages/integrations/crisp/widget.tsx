@@ -102,7 +102,7 @@ export default function CrispConfig(props: { isPremium?: boolean }) {
           </Stack>
         ) : (
           <Alert color="warning" sx={{ m: 2 }}>
-            This feature is restricted to Databerry.ai premium users
+            This feature is restricted to databerry-one.vercel.app premium users
           </Alert>
         )}
       </Box>
