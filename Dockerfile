@@ -32,7 +32,6 @@ RUN rm -rf node_modules/.pnpm/canvas@2.11.0
 FROM base AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
-COPY --from=deps /usr/local/lib/node_modules /usr/local/lib/node_modules
 COPY . .
 
 # Next.js collects completely anonymous telemetry data about general usage.
