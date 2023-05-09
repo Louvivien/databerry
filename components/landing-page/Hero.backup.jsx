@@ -53,7 +53,7 @@ export function Hero() {
       mt={6}
       >
 
-      <Link target='_blank' href={'https://databerry-qdfg.onrender.com/signin'}>
+      <Link target='_blank' href={'https://databerry-one.vercel.app/signin'}>
         <Button variant="solid" size="lg"
           startDecorator={<RocketLaunchRounded />}
           sx={{borderRadius: 100}}

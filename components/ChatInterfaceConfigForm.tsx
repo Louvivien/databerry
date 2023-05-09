@@ -409,7 +409,7 @@ function ChatInterfaceConfigForm({ agentId }: Props) {
           }}
         >
           {`<iframe
-  src="https://databerry-qdfg.onrender.com/agents/${getAgentQuery?.data?.id}/iframe"
+  src="https://databerry-one.vercel.app/agents/${getAgentQuery?.data?.id}/iframe"
   width="100%"
   height="100%"
 ></iframe>
