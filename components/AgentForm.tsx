@@ -239,6 +239,7 @@ export default function BaseForm(props: Props) {
 
           <Select defaultValue={'gpt-3.5-turbo'}>
             <Option value="gpt-3.5-turbo">OpenAI gpt-3.5-turbo</Option>
+            <Option value="gpt-4">OpenAI gpt-4</Option>
           </Select>
         </FormControl>
 
